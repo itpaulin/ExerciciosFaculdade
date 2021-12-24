@@ -37,7 +37,4 @@ main(){
         printf("\n%d cedula(s) de X$ 1", x);
         N = N - (x * 1) ;
     }
-
-    
-   
 }

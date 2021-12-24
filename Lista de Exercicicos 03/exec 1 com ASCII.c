@@ -2,10 +2,8 @@
 
 int vogal(char letra){
 
-    if (letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u' || letra == 'A' || letra == 'E' || letra == 'I' || letra == 'O' || letra == 'U'){
-    return 1;
-    }
-    return 0;
+(letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u' || letra == 'A' || letra == 'E' || letra == 'I' || letra == 'O' || letra == 'U') ? 1 : 0;
+   
 }
 
 int minuscula  (char letra){
