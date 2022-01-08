@@ -23,22 +23,17 @@ int valorabsoluto(int x){
 int adicao (int x, int y){
     int a = 0;
 
-     while (a != (x+y){
+     while (a != (x+y)){
          a++;
      }
      return a;
 }
 
-int subtracao(int n, int m){
-    if (m==0) return n;
-        if(m<0) return subtracao(++n,++m);
-        else return (subtracao(--n,--m));
-}
 
-int subtracaoo (int x, int y){
+int subtracao (int x, int y){
     int a = 0;
 
-     while (a != (x-y){
+     while (a != (x-y)){
          if (x > y) a--;
          else a++; 
      }
@@ -59,9 +54,9 @@ int main(void){
     printf("o oposto do segundo numero: %d", oposto(m));
     printf("\no valor absoluto do segundo numero: %d",valorabsoluto(m));
 
-    printf("A adicao desses numeros: %d", adicao(n,m));
+    printf("\nA adicao desses numeros: %d", adicao(n,m));
     
-    printf("A adicao desses numeros: %d", subtracao(n,m));
+    printf("\nA subtracao desses numeros: %d", subtracao(n,m));
 
 
 
