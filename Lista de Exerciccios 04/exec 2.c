@@ -10,7 +10,7 @@ int potencia (int x, int y){
     }
     printf ("Resultado da conta = %d", R);
 }
-main(){
+main()
     int x, y; 
     
     printf("digite seu numero: ");

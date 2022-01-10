@@ -18,10 +18,10 @@ float piso (float x){
 
  main(){
     float x; 
-    printf("digite um numero para ver o teto dele: ");
+    printf("digite um numero: ");
     scanf ("%f", &x);
     
     printf( " o teto desse numero = %f", teto(x));
     printf(" \n\no Piso desse numero = %f", piso(x));
-    
+    return 0;
 }
