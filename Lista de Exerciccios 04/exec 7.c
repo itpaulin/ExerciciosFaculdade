@@ -9,7 +9,7 @@ float raizquadrada(float numero){
 	
 	while( numero > (r * r) )++r;
 
-	while( numero < (r * r) )r-= 1E-6;
+	while( numero < (r * r) )r-= 1E-6; 
 
 	return r;
 
